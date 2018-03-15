@@ -9079,14 +9079,30 @@ img:not([data-no-retina]) {
     background-repeat: no-repeat;
     background-position: center;
   cursor: pointer;
+  background-image: url(../images/arrow-standBy.png);
 }
 .slidesControl--left
 {
   left: 3rem;
-  background-image: url(../images/arrow-left.png)
+}
+.slidesControl--left:hover{
+  background-image: url(../images/arrow-active.png);
+  transform: rotate(180deg);
 }
 .slidesControl--right
 {
   right: 3rem;
-  background-image: url(../images/arrow-right.png)
+  transform: rotate(180deg);
+}
+.slidesControl--right:hover{
+  transform: rotate(0);
+  background-image: url(../images/arrow-active.png);
+}
+
+.MS_slide{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
