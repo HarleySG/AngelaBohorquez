@@ -9055,15 +9055,17 @@ img:not([data-no-retina]) {
 	fill:#030104;
 }
 
-.hero__videoContent{
+.MS_slide--textContent{
   position: absolute;
   width: 540px;
   height: 200px;
   top: auto;
   bottom: 20px;
   z-index: 20;
-  left: auto;
-  right: 70px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero__slidesControls{
