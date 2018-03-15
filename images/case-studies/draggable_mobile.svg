@@ -1,0 +1,42 @@
+<svg id="Draggable_Element_-_Mobile" data-name="Draggable Element - Mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="933" viewBox="0 0 39 933">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #404040;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.3;
+      }
+    </style>
+    <filter id="filter" x="13" y="0" width="13" height="933" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.45"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="0" y="412" width="39" height="109" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.45"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect class="cls-1" x="17" y="2" width="4" height="924"/>
+  <g>
+    <rect class="cls-2" x="4" y="414" width="30" height="100" rx="6" ry="6"/>
+    <path class="cls-3" d="M1177,17401a0.972,0.972,0,0,1,1,1v28a1,1,0,0,1-2,0v-28A0.972,0.972,0,0,1,1177,17401Zm10,0a0.972,0.972,0,0,1,1,1v28a1,1,0,0,1-2,0v-28A0.972,0.972,0,0,1,1187,17401Z" transform="translate(-1163 -16952)"/>
+  </g>
+</svg>
