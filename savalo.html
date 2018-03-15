@@ -1,0 +1,1140 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Pixelmatters​ is a digital product Design and Development company, based in Portugal. Find out why we should work together.">
+	<meta name="keywords" content="pixelmatters,pixel,matters,design,user,experience,interface,development,software,engineering,mobile app development,mobile app design,dashboard,redesign,analytics,landing,page,screen,ios,android,designers,developers,remote,looking for freelance,looking for design,looking for development,project,projects,new,complex,app design,ui,ux,mobile design,talented,team,digital,product,ios dev,ios development,ios developer,wireframes,web,website">
+	<meta name="copyright" content="&copy;2016 Pixelmatters">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Pixelmatters: We&#x27;ll turn your ideas into products</title>
+	<meta property="og:title" content="Pixelmatters: We&#x27;ll turn your ideas into products">
+	<meta property="og:description" content="Pixelmatters​ is a digital product Design and Development company, based in Portugal. Find out why we should work together.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://pixelmatters.com">
+	<meta property="og:image" content="http://pixelmatters.com/images/pixelmatters-facebook.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@pixelmatters_">
+	<meta name="twitter:title" content="Pixelmatters: We&#x27;ll turn your ideas into products">
+	<meta name="twitter:description" content="Pixelmatters​ is a digital product Design and Development company, based in Portugal. Find out why we should work together.">
+	<meta name="twitter:image" content="http://pixelmatters.com/images/pixelmatters-twitter.jpg">
+	<link rel="stylesheet" href="styles/main-68a9d9a466.css">
+	<style>
+		.dribbble__items{
+			cursor: pointer;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+			grid-auto-rows: minmax(120px, auto);
+			grid-gap: 2px;
+			grid-auto-flow: dense;
+		}
+		.dribbble__itemImg{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.span-2 {
+			grid-column-end: span 2;
+			grid-row-end: span 2;
+		}
+
+		.span-3 {
+			grid-column-end: span 3;
+			grid-row-end: span 4;
+		}
+		.dribbble__itemLink{
+			height: 100%;
+		}
+
+		.ed-modal-content {
+		width: auto;
+		max-height: 90vh;
+		max-width: 1000px;
+		margin: auto;
+		position: relative;
+		top: -3rem;
+		opacity: 0;
+		}
+		.ed-modal-content--header {
+		min-height: 2rem;
+		border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+		}
+		.ed-modal-content--image {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+		}
+		.ed-modal-container {
+		background: rgba(0, 0, 0, 0.6);
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		opacity: 0;
+		z-index: 2000;
+		}
+		.ed-modal-container::before {
+		content: 'X';
+		color: #fff;
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		font-size: 1.5em;
+		opacity: .5;
+		}
+		.ed-modal-container:hover::before {
+		cursor: pointer;
+		opacity: 1;
+		}
+		.ed-modal-container.is-active {
+		-webkit-animation-name: modalInyect;
+				animation-name: modalInyect;
+		-webkit-animation-duration: 340ms;
+				animation-duration: 340ms;
+		opacity: 1;
+		}
+		.ed-modal-container.is-active .ed-modal-content {
+		-webkit-animation-name: modalInyectContent;
+				animation-name: modalInyectContent;
+		-webkit-animation-duration: 540ms;
+				animation-duration: 540ms;
+		top: 0;
+		opacity: 1;
+		}
+		.ed-modal-container.is-remove {
+		-webkit-animation-name: modalRemove;
+				animation-name: modalRemove;
+		-webkit-animation-duration: 340ms;
+				animation-duration: 340ms;
+		}
+		.ed-modal-container.is-remove .ed-modal-content {
+		-webkit-animation-name: modalRemoveContent;
+				animation-name: modalRemoveContent;
+		-webkit-animation-duration: 340ms;
+				animation-duration: 340ms;
+		}
+
+		@-webkit-keyframes modalRemove {
+		from {
+			opacity: 1;
+		}
+		to {
+			opacity: 0;
+		}
+		}
+
+		@keyframes modalRemove {
+		from {
+			opacity: 1;
+		}
+		to {
+			opacity: 0;
+		}
+		}
+		@-webkit-keyframes modalRemoveContent {
+		from {
+			opacity: 1;
+			top: 0;
+		}
+		to {
+			opacity: 0;
+			top: -3rem;
+		}
+		}
+		@keyframes modalRemoveContent {
+		from {
+			opacity: 1;
+			top: 0;
+		}
+		to {
+			opacity: 0;
+			top: -3rem;
+		}
+		}
+		@-webkit-keyframes modalInyect {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+		}
+		@keyframes modalInyect {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+		}
+		@-webkit-keyframes modalInyectContent {
+		from {
+			opacity: 0;
+			top: -3rem;
+		}
+		to {
+			opacity: 1;
+			top: 0;
+		}
+		}
+		@keyframes modalInyectContent {
+		from {
+			opacity: 0;
+			top: -3rem;
+		}
+		to {
+			opacity: 1;
+			top: 0;
+		}
+		}
+
+
+		</style>
+	</head>
+	<body class="culture" id="heroMain">
+		<!--[if lt IE 9]>
+	<div class="container upgrade">
+	<div class="upgrade__inner">
+	<div class="col-xs-12">
+	<img class="upgrade__image" src="images/upgrade/upgrade.jpg" title="Upgrade your browser" />
+	<h1 class="upgrade__title">Ouch! Your browser is quite old, don’t you think?</h1>
+	<h2 class="upgrade__subTitle">Please <a class="link link--orange" href="http://browsehappy.com/" target="_blank">upgrade</a> it to improve your experience.</h2>
+	</div>
+	</div>
+	</div>
+	<![endif]-->
+	<!--[if gte IE 9]>
+
+		<!-- hero-->
+
+		<div id="top-nav" class="top-nav">
+			<div class="container">
+				<svg class="overlay overlay--topNav">
+					<defs>
+						<lineargradient id="overlayCircleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+							<stop offset="50%" style="stop-color:rgb(255,105,92);stop-opacity:1" />
+							<stop offset="100%" style="stop-color:rgb(255,150,92);stop-opacity:1" /> </lineargradient>
+					</defs>
+					<circle id="overlayCircle" cx="0" cy="0" r="1" fill="url(#overlayCircleGradient)" data-svg-origin="50 50" /> </svg>
+				<div class="logo logo--isInTopBar">
+					<a href="index.html" title="Pixelmatters Homepage">
+						<svg version="1.1" class="logo__image" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 194.8 63.4" style="enable-background:new 0 0 194.8 63.4;" xml:space="preserve">
+								<g id="MS_x5F_holding-group">
+									<path id="MS_x5F_hg--greenShadow" 	class="MS_hg--greenShadow MS_hg--shadow"
+										d="M86,42.7 C72.8,60.7,65.7,18.3,72.3,0C60.2,22.1,74.5,71.6,86,42.7z" />
+									<path id="MS_x5F_hg--blueShadow" 	class="MS_hg--blueShadow MS_hg--shadow"
+										d="M84.8,27.2 C106.5,37.9,74.2,50.1,52,46.6C78.1,54.7,118.9,34.8,84.8,27.2z" />
+									<path id="MS_x5F_hg--blue" 			class="MS_hg--blue MS_hg--color"
+										d="M85.8,28.5 c21.6,10.7-10.7,22.9-32.9,19.4C79.1,56,119.9,36.1,85.8,28.5z" />
+									<path id="MS_x5F_hg--redShadow" 	class="MS_hg--redShadow MS_hg--shadow"
+										d="M70.5,40.8 C52.9,29,94.6,18.5,112.8,24.3C90.3,12.9,40.9,30.9,70.5,40.8z" />
+									<path id="MS_x5F_hg--red" 			class="MS_hg--red MS_hg--color"
+										d="M71.4,41.8C53.8,30,95.5,19.5,113.7,25.3 C91.2,13.9,41.8,31.9,71.4,41.8z" />
+									<path id="MS_x5F_hg--yelloShadow" 	class="MS_hg--yelloShadow MS_hg--shadow"
+										d="M74.8,23.8 C87.9,9.6,95.7,45.7,90.4,62.4C100.8,41.2,84.6-4.1,74.8,23.8z" />
+									<path id="MS_x5F_hg--green" 		class="MS_hg--green MS_hg--color"
+										d="M86.9,43.7C73.7,61.7,66.6,19.2,73.2,1 C61.1,23.1,75.4,72.6,86.9,43.7z" />
+									<path id="MS_x5F_hg--yellow" 		class="MS_hg--yellow MS_hg--color"
+										d="M76,24.8 c13.1-14.2,20.9,21.9,15.6,38.6C102,42.2,85.8-3.1,76,24.8z" />
+									<path id="MS_x5F_hg--medios" 		class="MS_hg--medios MS_hg--text"
+										d="M41.2,40.4v-2.2h0c0.6,0,1-0.3,1.5-0.8c0.4-0.5,0.6-1.3,0.6-2.4
+										c0-1-0.2-1.8-0.6-2.4c-0.4-0.5-0.9-0.8-1.5-0.8v-2.2c1.4,0,2.4,0.5,3.2,1.6c0.8,1.1,1.2,2.3,1.2,3.8c0,1.1-0.2,2-0.6,2.9
+										c-0.4,0.9-0.9,1.5-1.6,1.9C42.7,40.2,42,40.4,41.2,40.4L41.2,40.4L41.2,40.4z M46.6,37.2l2.3-0.4c0.2,1.1,0.8,1.6,1.8,1.6
+										c0.5,0,0.9-0.1,1.2-0.3c0.3-0.2,0.4-0.5,0.4-0.8c0-0.2-0.1-0.4-0.2-0.5c-0.1-0.1-0.4-0.2-0.7-0.3c-1.8-0.5-3-1-3.5-1.4
+										c-0.6-0.6-0.9-1.3-0.9-2.3c0-1,0.3-1.7,0.9-2.3c0.6-0.6,1.5-0.9,2.7-0.9c1.1,0,2,0.2,2.5,0.6c0.6,0.4,1,1.1,1.2,2.1l-2.1,0.5
+										c-0.2-0.8-0.7-1.2-1.6-1.2c-0.6,0-0.9,0.1-1.2,0.2c-0.2,0.2-0.4,0.4-0.4,0.6c0,0.2,0.1,0.4,0.3,0.6c0.2,0.2,0.9,0.4,2,0.7
+										c1.3,0.4,2.1,0.8,2.6,1.3c0.4,0.5,0.7,1.2,0.7,2c0,1-0.3,1.8-1,2.5c-0.7,0.7-1.6,1-2.8,1c-1.1,0-2-0.3-2.7-0.8
+										C47.3,39,46.8,38.2,46.6,37.2z M41.2,29.6v2.2h0c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.5-0.6,1.3-0.6,2.4c0,1.1,0.2,1.8,0.6,2.4
+										c0.4,0.5,0.9,0.8,1.5,0.8v2.2c-1.3,0-2.3-0.5-3.1-1.4c-0.8-1-1.3-2.3-1.3-4.1c0-1,0.2-1.9,0.6-2.8c0.4-0.8,0.9-1.5,1.6-1.9
+										C39.7,29.8,40.4,29.6,41.2,29.6L41.2,29.6L41.2,29.6z M26.5,40.3v-2.1h0c0.5,0,0.9-0.3,1.3-0.8c0.4-0.5,0.5-1.3,0.5-2.4
+										c0-1.2-0.2-2-0.5-2.6c-0.4-0.5-0.8-0.8-1.3-0.8v-2c0.3,0.1,0.5,0.2,0.7,0.3c0.4,0.2,0.8,0.6,1.1,1.1v-5.2h2.3v14.3h-2.1v-1.5
+										c-0.3,0.6-0.7,1-1.2,1.3C27,40.1,26.7,40.2,26.5,40.3L26.5,40.3z M32.8,28.4v-2.5h2.3v2.5H32.8L32.8,28.4z M32.8,40.2V29.8h2.3
+										v10.4H32.8z M26.5,29.6v2h0c-0.5,0-1,0.3-1.3,0.8c-0.4,0.5-0.5,1.3-0.5,2.3c0,0.9,0.1,1.6,0.2,2.1c0.2,0.5,0.4,0.8,0.7,1
+										c0.3,0.2,0.6,0.3,1,0.3v2.1c-0.2,0.1-0.4,0.1-0.6,0.1c-1,0-1.8-0.5-2.5-1.4c-0.7-0.9-1.1-2.3-1.1-4.1c0-1.8,0.3-3.1,1-4
+										c0.7-0.9,1.5-1.4,2.5-1.4C26.1,29.6,26.3,29.6,26.5,29.6L26.5,29.6z M17,40.4v-2.1c0,0,0.1,0,0.1,0c0.7,0,1.2-0.5,1.4-1.5l2.2,0.5
+										c-0.3,1-0.8,1.8-1.4,2.3C18.8,40.1,18,40.4,17,40.4L17,40.4L17,40.4z M17,35.8v-1.7h1.7c0-0.8-0.2-1.4-0.5-1.8
+										c-0.3-0.4-0.7-0.6-1.2-0.6h0v-2.1c1.2,0,2.1,0.5,2.7,1.3c0.8,1,1.2,2.5,1.2,4.5l0,0.3H17z M0,40.2V25.8h3.5l2.1,9.8l2.1-9.8h3.6
+										v14.3H9.1V28.9L6.8,40.2H4.5L2.2,28.9v11.3H0L0,40.2z M17,29.6v2.1c-0.5,0-0.9,0.2-1.2,0.6c-0.3,0.4-0.5,1-0.5,1.8H17v1.7h-1.7
+										c0,0.8,0.2,1.5,0.5,1.9c0.3,0.4,0.7,0.6,1.2,0.7v2.1c-1.2,0-2.1-0.4-2.8-1.3c-0.8-1-1.2-2.3-1.2-4.1c0-1.7,0.4-3.1,1.2-4.2
+										c0.7-0.9,1.6-1.3,2.7-1.3C17,29.6,17,29.6,17,29.6z" />
+									<path id="MS_x5F_hg--soluciones" 	class="MS_hg--soluciones MS_hg--text"
+										d="M177.9,43.3v-2.1c0,0,0.1,0,0.1,0c0.7,0,1.2-0.5,1.4-1.5l2.2,0.5
+										c-0.3,1-0.7,1.8-1.4,2.3C179.6,43,178.8,43.3,177.9,43.3L177.9,43.3L177.9,43.3z M177.9,38.7V37h1.6c0-0.8-0.2-1.4-0.5-1.8
+										c-0.3-0.4-0.7-0.6-1.1-0.6h0v-2.1c1.1,0,2,0.5,2.7,1.3c0.8,1,1.2,2.5,1.2,4.5l0,0.3H177.9L177.9,38.7z M182.7,40.1l2.2-0.4
+										c0.2,1.1,0.8,1.6,1.8,1.6c0.5,0,0.9-0.1,1.2-0.3c0.3-0.2,0.4-0.5,0.4-0.8c0-0.2-0.1-0.4-0.2-0.5c-0.1-0.1-0.4-0.2-0.7-0.3
+										c-1.8-0.5-3-1-3.4-1.4c-0.6-0.6-0.9-1.3-0.9-2.3c0-1,0.3-1.7,0.9-2.3c0.6-0.6,1.5-0.9,2.6-0.9c1.1,0,1.9,0.2,2.5,0.7
+										c0.6,0.4,1,1.1,1.2,2.1l-2.1,0.5c-0.2-0.8-0.7-1.3-1.6-1.3c-0.5,0-0.9,0.1-1.2,0.2c-0.2,0.2-0.3,0.4-0.3,0.6c0,0.2,0.1,0.4,0.3,0.6
+										c0.2,0.2,0.9,0.4,2,0.7c1.2,0.4,2.1,0.8,2.5,1.3c0.4,0.5,0.7,1.2,0.7,2c0,1-0.3,1.8-1,2.5c-0.7,0.7-1.6,1-2.8,1
+										c-1.1,0-2-0.3-2.6-0.8C183.4,41.9,182.9,41.1,182.7,40.1z M177.9,32.5v2.1c-0.5,0-0.9,0.2-1.2,0.6c-0.3,0.4-0.5,1-0.5,1.8h1.6v1.7
+										h-1.7c0,0.8,0.2,1.5,0.5,1.9c0.3,0.4,0.7,0.6,1.1,0.7v2.1c-1.2,0-2.1-0.4-2.8-1.3c-0.8-1-1.2-2.3-1.2-4.1c0-1.7,0.4-3.1,1.2-4.2
+										c0.7-0.9,1.5-1.3,2.6-1.3C177.8,32.5,177.8,32.5,177.9,32.5L177.9,32.5z M158.8,43.3v-2.2h0c0.6,0,1-0.3,1.4-0.8
+										c0.4-0.5,0.6-1.3,0.6-2.4c0-1-0.2-1.8-0.6-2.4c-0.4-0.5-0.9-0.8-1.4-0.8v-2.2c1.3,0,2.4,0.5,3.2,1.6c0.8,1.1,1.1,2.3,1.1,3.8
+										c0,1.1-0.2,2-0.6,2.9c-0.4,0.9-0.9,1.5-1.6,1.9C160.2,43.1,159.5,43.3,158.8,43.3L158.8,43.3L158.8,43.3z M172.3,43.1h-2.2v-5.3
+										c0-1.1,0-1.8-0.1-2.1c-0.1-0.3-0.2-0.6-0.5-0.8c-0.2-0.2-0.5-0.3-0.8-0.3c-0.4,0-0.7,0.1-1,0.4c-0.3,0.2-0.5,0.6-0.6,1
+										c-0.1,0.4-0.2,1.2-0.2,2.4v4.7h-2.2V32.7h2v1.5c0.4-0.6,0.8-1,1.2-1.3c0.5-0.3,1-0.4,1.5-0.4c0.6,0,1.2,0.2,1.6,0.5
+										c0.4,0.3,0.7,0.8,0.9,1.3c0.2,0.5,0.3,1.3,0.3,2.3V43.1z M158.8,32.5v2.2l0,0c-0.6,0-1,0.3-1.4,0.8c-0.4,0.5-0.6,1.3-0.6,2.4
+										c0,1,0.2,1.8,0.6,2.4c0.4,0.5,0.9,0.8,1.4,0.8v2.2c-1.2,0-2.3-0.5-3.1-1.4c-0.8-1-1.2-2.3-1.2-4.1c0-1,0.2-1.9,0.6-2.8
+										c0.4-0.8,0.9-1.5,1.5-1.9C157.3,32.7,158,32.5,158.8,32.5L158.8,32.5z M121.3,43.3v-2.2h0c0.6,0,1-0.3,1.4-0.8
+										c0.4-0.5,0.6-1.3,0.6-2.4c0-1-0.2-1.8-0.6-2.4c-0.4-0.5-0.9-0.8-1.4-0.8v-2.2c1.3,0,2.4,0.5,3.2,1.6c0.8,1.1,1.1,2.3,1.1,3.8
+										c0,1.1-0.2,2-0.6,2.9c-0.4,0.9-0.9,1.5-1.6,1.9C122.8,43.1,122.1,43.3,121.3,43.3L121.3,43.3L121.3,43.3z M127.4,43.1V28.7h2.2
+										v14.3H127.4L127.4,43.1z M137.3,43.1v-1.6c-0.3,0.6-0.7,1-1.2,1.3c-0.5,0.3-1,0.5-1.6,0.5c-0.5,0-1-0.1-1.5-0.4
+										c-0.4-0.3-0.8-0.7-1-1.3c-0.2-0.5-0.3-1.3-0.3-2.4v-6.6h2.2v4.8c0,1.4,0,2.2,0.1,2.6c0.1,0.4,0.2,0.7,0.4,0.9
+										c0.2,0.2,0.5,0.3,0.8,0.3c0.4,0,0.7-0.1,1-0.4c0.3-0.3,0.5-0.6,0.6-1c0.1-0.4,0.1-1.3,0.1-2.7v-4.4h2.2v10.4H137.3L137.3,43.1z
+										M148.9,35.8l-2.2,0.5c-0.2-1.1-0.7-1.6-1.5-1.6c-0.5,0-1,0.2-1.3,0.7c-0.3,0.5-0.5,1.3-0.5,2.4c0,1.2,0.2,2.1,0.5,2.6
+										c0.3,0.5,0.8,0.8,1.3,0.8c0.4,0,0.8-0.1,1-0.4c0.3-0.3,0.5-0.8,0.6-1.5l2.2,0.5c-0.4,2.5-1.7,3.7-3.8,3.7c-1.4,0-2.4-0.5-3-1.6
+										c-0.7-1.1-1-2.3-1-3.8c0-1.8,0.4-3.1,1.1-4.1c0.7-0.9,1.7-1.4,2.9-1.4c1,0,1.8,0.3,2.4,0.8C148.2,33.8,148.6,34.6,148.9,35.8
+										L148.9,35.8z M150.5,31.3v-2.5h2.2v2.5H150.5L150.5,31.3z M150.5,43.1V32.7h2.2v10.4H150.5z M106.3,38.4l2.3-0.3
+										c0.3,1.8,1.1,2.7,2.5,2.7c0.7,0,1.2-0.2,1.6-0.6c0.4-0.4,0.6-0.8,0.6-1.4c0-0.3-0.1-0.6-0.2-0.8c-0.1-0.2-0.4-0.4-0.6-0.6
+										c-0.3-0.1-1-0.4-2.1-0.7c-1-0.3-1.7-0.6-2.2-1c-0.5-0.4-0.8-0.8-1.1-1.4c-0.3-0.6-0.4-1.2-0.4-1.9c0-0.8,0.2-1.5,0.5-2.1
+										c0.3-0.6,0.8-1.1,1.4-1.4c0.6-0.3,1.4-0.5,2.3-0.5c1.3,0,2.4,0.4,3.2,1.1c0.8,0.7,1.2,1.8,1.2,3.2L113,33c-0.1-0.8-0.3-1.3-0.7-1.6
+										c-0.3-0.3-0.8-0.5-1.4-0.5c-0.6,0-1.1,0.1-1.4,0.4c-0.3,0.3-0.5,0.6-0.5,1c0,0.4,0.2,0.7,0.5,1c0.3,0.3,1,0.6,2.1,0.9
+										c1.2,0.3,2,0.7,2.5,1.1c0.5,0.4,0.9,0.9,1.2,1.5c0.3,0.6,0.4,1.3,0.4,2.2c0,1.2-0.4,2.3-1.1,3.1c-0.7,0.8-1.9,1.3-3.5,1.3
+										C108.2,43.3,106.6,41.7,106.3,38.4L106.3,38.4z M121.3,32.5v2.2l0,0c-0.6,0-1,0.3-1.4,0.8c-0.4,0.5-0.6,1.3-0.6,2.4
+										c0,1,0.2,1.8,0.6,2.4c0.4,0.5,0.9,0.8,1.4,0.8v2.2c-1.2,0-2.3-0.5-3.1-1.4c-0.8-1-1.2-2.3-1.2-4.1c0-1,0.2-1.9,0.6-2.8
+										c0.4-0.8,0.9-1.5,1.5-1.9C119.8,32.7,120.6,32.5,121.3,32.5z" />
+									<path id="MS_x5F_hg--ampersand" 	class="MS_hg--ampersand"
+										d="M87.7,41.2l-1.4,2.1c-0.7-0.4-1.3-0.9-1.9-1.6c-0.5,0.5-1,0.9-1.5,1.2
+										c-0.4,0.2-0.8,0.3-1.2,0.3v-2.4c0.4-0.2,0.9-0.5,1.3-0.9l-1.3-2v-4.6l0.5-0.5c0.4-0.4,0.7-0.8,0.7-1.2c0-0.4-0.1-0.7-0.3-0.9
+										c-0.2-0.2-0.5-0.3-0.8-0.4v-1.9c0.9,0,1.7,0.3,2.2,0.9c0.6,0.6,0.9,1.4,0.9,2.3c0,0.6-0.2,1.2-0.5,1.7c-0.3,0.5-0.9,1.1-1.7,1.7
+										l1.6,2.6c0.2-0.4,0.3-0.9,0.5-1.6l2,0.6c-0.3,1.4-0.7,2.4-1,2.9c0.2,0.3,0.6,0.6,1,0.9C87.2,40.8,87.5,41.1,87.7,41.2z M81.7,43.1
+										c-0.2,0-0.4,0-0.7,0c-1.4,0-2.5-0.4-3.1-1.3c-0.7-0.9-1-1.8-1-2.9c0-1.8,0.9-3.3,2.7-4.4c-0.8-1.1-1.2-2.2-1.2-3.1
+										c0-0.9,0.3-1.7,0.9-2.2c0.6-0.6,1.4-0.9,2.4-0.9l0.1,0v1.9l0,0c-0.3,0-0.6,0.1-0.8,0.3c-0.2,0.2-0.3,0.5-0.3,0.8
+										c0,0.3,0.2,0.8,0.5,1.2l0.6,0.8l0.1-0.1v4.6l-1-1.5c-0.5,0.3-0.9,0.7-1.1,1.1c-0.3,0.4-0.4,0.9-0.4,1.4c0,0.6,0.2,1.1,0.5,1.5
+										c0.3,0.4,0.7,0.5,1.3,0.5c0.3,0,0.5-0.1,0.8-0.2V43.1z" />
+									<path id="MS_x5F_hg--holdingGroup" 	class="MS_hg--holdingGroup MS_hg--text"
+										d="M188.2,54.2v-0.8c0.9-0.1,1.3-0.8,1.3-2c0-0.7-0.1-1.2-0.4-1.5
+										c-0.2-0.2-0.5-0.4-0.9-0.4v-0.8c0.7,0,1.3,0.2,1.7,0.7c0.4,0.5,0.6,1.2,0.6,2.1c0,0.8-0.2,1.5-0.6,2
+										C189.5,53.9,188.9,54.2,188.2,54.2z M188.2,48.7v0.8c-0.1,0-0.3,0-0.4,0c-0.1,0-0.3,0-0.5,0.1c-0.2,0.1-0.3,0.2-0.5,0.3V53
+										c0.1,0.1,0.2,0.2,0.4,0.3c0.2,0.1,0.4,0.1,0.6,0.1c0.1,0,0.3,0,0.4,0v0.8c0,0-0.1,0-0.1,0c-0.2,0-0.5,0-0.7-0.1
+										c-0.3-0.1-0.4-0.2-0.5-0.3v2.4h-0.9v-7.4h0.9v0.4C187.2,48.9,187.6,48.7,188.2,48.7L188.2,48.7L188.2,48.7z M176.9,54.2v-0.8h0
+										c0.4,0,0.8-0.2,1-0.5c0.2-0.4,0.4-0.8,0.4-1.5c0-1.3-0.5-2-1.4-2h0v-0.8h0c0.8,0,1.3,0.2,1.8,0.7c0.4,0.5,0.6,1.2,0.6,2
+										c0,0.9-0.2,1.5-0.6,2C178.3,53.9,177.7,54.2,176.9,54.2L176.9,54.2L176.9,54.2z M181.2,48.8v3.4c0,0.8,0.4,1.2,1.1,1.2
+										c0.3,0,0.6-0.1,0.9-0.3c0.3-0.2,0.4-0.4,0.5-0.6v-3.7h0.9v5.3h-0.9v-0.7c-0.1,0.2-0.3,0.4-0.6,0.6c-0.3,0.2-0.6,0.3-0.9,0.3
+										c-0.6,0-1-0.2-1.3-0.5c-0.3-0.3-0.5-0.8-0.5-1.4v-3.5H181.2z M176.9,48.7v0.8c-0.4,0-0.8,0.2-1,0.5c-0.3,0.4-0.4,0.8-0.4,1.4
+										c0,1.3,0.5,2,1.4,2v0.8c-0.8,0-1.3-0.3-1.8-0.7c-0.4-0.5-0.6-1.2-0.6-2c0-0.8,0.2-1.5,0.7-2C175.6,48.9,176.2,48.7,176.9,48.7
+										L176.9,48.7z M157.7,56.2v-0.8l0.1,0c0.4,0,0.8-0.1,1-0.2c0.2-0.1,0.4-0.3,0.4-0.5c0-0.4-0.3-0.6-0.9-0.6c-0.1,0-0.3,0-0.5,0.1
+										v-0.8l0,0c0.3,0,0.5-0.1,0.7-0.1c0.5,0,0.9,0.1,1.2,0.4c0.3,0.2,0.4,0.6,0.4,1c0,0.5-0.2,0.9-0.7,1.2C159,56,158.4,56.2,157.7,56.2
+										L157.7,56.2L157.7,56.2z M157.7,52.7v-0.8h0c0.3,0,0.6-0.1,0.8-0.4c0.2-0.2,0.3-0.5,0.3-0.9c0-0.3-0.1-0.6-0.3-0.8
+										c-0.2-0.2-0.5-0.3-0.8-0.3h0v-0.8c0.5,0,0.9,0.1,1.2,0.3l0.5-0.6L160,49l-0.6,0.4c0.2,0.3,0.4,0.7,0.4,1.2c0,0.5-0.2,1-0.5,1.3
+										c-0.3,0.4-0.8,0.6-1.3,0.6L157.7,52.7L157.7,52.7z M169.2,47.3l-0.4,0.8c-0.5-0.4-1-0.6-1.5-0.6c-0.8,0-1.4,0.3-1.8,0.8
+										c-0.4,0.5-0.7,1.2-0.7,2.1c0,0.8,0.2,1.5,0.6,2c0.4,0.5,1,0.8,1.8,0.8c0.5,0,1-0.2,1.3-0.5v-1.7h-1v-0.8h2v3.2
+										c-0.3,0.2-0.6,0.4-1.1,0.5c-0.5,0.1-0.9,0.2-1.4,0.2c-1,0-1.8-0.3-2.4-1c-0.6-0.7-0.9-1.6-0.9-2.7c0-1.1,0.3-2,1-2.7
+										c0.6-0.7,1.5-1,2.6-1C168.1,46.7,168.7,46.9,169.2,47.3L169.2,47.3z M173.8,49.7c-0.2-0.1-0.4-0.2-0.6-0.2c-0.3,0-0.6,0.2-0.9,0.5
+										c-0.2,0.3-0.4,0.7-0.4,1.1v3H171v-5.3h0.9v0.8c0.3-0.6,0.9-0.9,1.5-0.9c0.2,0,0.4,0,0.7,0.1L173.8,49.7z M157.7,48.7v0.8
+										c-0.3,0-0.6,0.1-0.8,0.3c-0.2,0.2-0.3,0.5-0.3,0.8c0,0.4,0.1,0.7,0.3,0.9c0.2,0.2,0.5,0.4,0.8,0.4v0.8l-0.5,0.1
+										c-0.1,0-0.2,0-0.4,0.1c-0.2,0.1-0.2,0.1-0.2,0.2c0,0.1,0.2,0.2,0.5,0.2c0.1,0,0.4,0,0.6-0.1V54l-0.1,0c-0.3,0.1-0.5,0.1-0.6,0.1
+										c-0.8,0-1.1-0.3-1.1-0.9c0-0.2,0.1-0.3,0.3-0.5c0.2-0.1,0.4-0.2,0.7-0.3c-0.7-0.3-1.1-1-1.1-1.8c0-0.6,0.2-1,0.6-1.4
+										C156.6,48.9,157.1,48.7,157.7,48.7L157.7,48.7L157.7,48.7z M157.7,55.3v0.8c-0.3,0-0.7-0.1-1.1-0.2c-0.4-0.1-0.7-0.3-0.9-0.4
+										l0.5-0.8C156.8,55.1,157.3,55.3,157.7,55.3L157.7,55.3z M143.9,54.2v-0.8c0.1,0,0.3,0,0.4,0c0.1,0,0.3,0,0.5-0.1
+										c0.2-0.1,0.3-0.2,0.4-0.3V50c-0.2-0.4-0.6-0.5-1-0.5c-0.1,0-0.2,0-0.4,0v-0.8c0,0,0.1,0,0.1,0c0.5,0,1,0.1,1.2,0.4v-2.5h0.9v7.5
+										h-0.9v-0.4C144.9,54,144.5,54.2,143.9,54.2L143.9,54.2z M148.5,46.8c0.2,0,0.3,0.1,0.4,0.2c0.1,0.1,0.2,0.3,0.2,0.4
+										c0,0.2-0.1,0.3-0.2,0.4c-0.1,0.1-0.3,0.2-0.4,0.2c-0.2,0-0.3-0.1-0.4-0.2c-0.1-0.1-0.2-0.2-0.2-0.4c0-0.2,0.1-0.3,0.2-0.4
+										C148.2,46.8,148.3,46.8,148.5,46.8L148.5,46.8z M148,54.1v-4.5h-0.7v-0.8h1.7v5.3H148L148,54.1z M153.7,54.1V51
+										c0-0.6-0.1-1-0.3-1.2c-0.2-0.2-0.5-0.3-0.9-0.3c-0.2,0-0.4,0.1-0.7,0.2c-0.2,0.1-0.4,0.3-0.5,0.5v3.9h-0.9v-5.3h0.6l0.3,0.7
+										c0.3-0.5,0.8-0.8,1.5-0.8c1.2,0,1.7,0.7,1.7,2.1v3.3H153.7z M143.9,48.7v0.8c-0.3,0.1-0.6,0.2-0.9,0.5c-0.3,0.4-0.5,0.9-0.5,1.4
+										c0,1.1,0.4,1.8,1.3,1.9v0.8c0,0-0.1,0-0.1,0c-0.7,0-1.2-0.2-1.6-0.7c-0.4-0.5-0.6-1.1-0.6-1.9c0-0.8,0.2-1.5,0.7-2
+										C142.7,49,143.3,48.7,143.9,48.7L143.9,48.7z M135.5,54.2v-0.8h0c0.4,0,0.8-0.2,1-0.5c0.3-0.4,0.4-0.8,0.4-1.5c0-1.3-0.5-2-1.4-2h0
+										v-0.8h0c0.8,0,1.3,0.2,1.8,0.7c0.4,0.5,0.6,1.2,0.6,2c0,0.9-0.2,1.5-0.6,2C136.8,53.9,136.2,54.2,135.5,54.2L135.5,54.2L135.5,54.2
+										z M139,52.6v-6h0.9v5.8c0,0.3,0.1,0.5,0.2,0.7c0.2,0.2,0.4,0.2,0.6,0.2v0.8C139.6,54.2,139,53.7,139,52.6z M131,54.1v-3.5h-3.2v3.5
+										h-1v-7.3h1v2.9h3.2v-2.9h1v7.3H131L131,54.1z M135.5,48.7v0.8c-0.4,0-0.8,0.2-1,0.5c-0.3,0.4-0.4,0.8-0.4,1.4c0,1.3,0.5,2,1.4,2
+										v0.8c-0.8,0-1.3-0.3-1.8-0.7c-0.4-0.5-0.6-1.2-0.6-2c0-0.8,0.2-1.5,0.7-2C134.2,48.9,134.8,48.7,135.5,48.7z" />
+									<path id="marca_x5F_reistrada" 		class="MS_x5F_registrada MS_hg--text"
+										d="M194.8,30.3c0,1.2-0.9,2.1-2.1,2.1c-1.2,0-2.2-0.9-2.2-2.1
+										c0-1.2,1-2.1,2.2-2.1C193.8,28.3,194.8,29.2,194.8,30.3z M191,30.3c0,0.9,0.7,1.7,1.6,1.7c0.9,0,1.6-0.7,1.6-1.7
+										c0-0.9-0.7-1.7-1.6-1.7C191.7,28.7,191,29.4,191,30.3z M192.3,31.4h-0.5v-2.1c0.2,0,0.5-0.1,0.8-0.1c0.4,0,0.6,0.1,0.7,0.2
+										c0.1,0.1,0.2,0.2,0.2,0.4c0,0.3-0.2,0.4-0.4,0.5v0c0.2,0.1,0.3,0.2,0.4,0.5c0.1,0.3,0.1,0.4,0.2,0.5h-0.5c-0.1-0.1-0.1-0.3-0.2-0.5
+										c0-0.2-0.2-0.3-0.4-0.3h-0.2V31.4z M192.3,30.3h0.2c0.3,0,0.5-0.1,0.5-0.3c0-0.2-0.1-0.3-0.4-0.3c-0.1,0-0.2,0-0.3,0V30.3z"
+									/>
+								</g>
+							</svg>
+					</a>
+				</div>
+				<button id="menuMobileToggle" class="menuMobileToggle visible-xs">
+					<div class="menuMobileToggle__container">
+						<span class="menuMobileToggle__line menuMobileToggle__line--top"></span>
+						<span class="menuMobileToggle__line menuMobileToggle__line--middleLeft"></span>
+						<span class="menuMobileToggle__line menuMobileToggle__line--middleRight"></span>
+						<span class="menuMobileToggle__line menuMobileToggle__line--bottom"></span>
+					</div>
+				</button>
+				<nav class="menu menu--topBar hidden-xs">
+					<ul class="list-inline menu__list" role="menu">
+						<li class="menu__listItem">
+							<a class="link link--white link--underline link--menu noTransition" href="#" title="Nuestro grupo">Nuestro grupo</a>
+						</li>
+						<li class="menu__listItem">
+							<a class="link link--white link--underline link--menu noTransition" href="#" title="Línea de negocios">Línea de negocios</a>
+						</li>
+						<li class="menu__listItem">
+							<a class="link link--white link--underline link--menu noTransition" href="#" title="Media">Media</a>
+						</li>
+						<li class="menu__listItem">
+							<a class="link link--white link--underline link--menu noTransition" href="contactanos.html" title="Contactanos">Contactanos</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<header class="hero" role="banner" style="    margin-top: -580px;">
+			<div class="hero__bgVideo videoWrapper">
+				<img class="videoWrapper__image" src="videos/teamatters2-fallback.jpg" alt="Video Fallback Image">
+				<img class="videoWrapper__mobileThumb" src="videos/teamatters2-fallback-b.jpg" alt="Mobile Thumbnail Image">
+				<video id="heroVideoEl" class="videoWrapper__video" poster="videos/teamatters2-fallback.jpg" autoplay muted loop>
+					<source src="videos/teamatters2.mp4" type="video/mp4"> </video>
+			</div>
+			<div class="overlay overlay--fullSize hero__overlay">
+				<div class="loaderContainer">
+					<svg id="videoLoader" class="loader hero__overlayLoader" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewbox="0 0 100 100">
+						<path class="square" fill="#ff695c" d="M0 0h100v100H0z" /> </svg>
+				</div>
+				<button class="button button--circle button--closeOverlay hero__button--videoTrigger">
+					<svg class="pixel--cross">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/icons.svg#pixel--cross" /> </svg>
+				</button>
+				<div class="hero__overlayInner">
+					<div id="heroVideo" class="hero__overlayVideo"></div>
+				</div>
+			</div>
+			<canvas class="pixelRain pixelRain--isAbsolute"></canvas>
+			<div class="hero__infoContainer">
+				<div class="hero__infoAlign">
+					<h1 class="hero__title">It's not only about pretty pixels.</h1>
+					<button class="button button--center button--circle button--video hero__button hero__button--videoTrigger"
+					data-id="aHgaLwr8Lx0" title="Play Teamatters Video">
+						<svg class="pixel--play">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/icons.svg#pixel--play" /> </svg>
+					</button>
+				</div>
+			</div>
+			<div class="hero__dividerWrapper">
+				<svg class="hero__divider hasBorder" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid"
+				viewbox="0 0 2559.81 314">
+					<path id="hero__path" d="M0.000,104.518 C0.000,104.518 1217.879,304.000 1279.000,304.000 C1330.373,304.000 2543.938,107.124 2559.813,104.548 L2559.813,314.000 L-0.187,314.000 L-0.187,-0.000 L0.000,-0.000 L0.000,104.518 Z"
+					/> </svg>
+			</div>
+		</header>
+		<main class="main" >
+			<section class="mission">
+				<img class="mission__image" src="images/savalo/banner_savalo.png" alt="savalo" style="    object-fit: cover; object-position: bottom; width: 100%; height: 100%;">
+				<div class="container">
+					<div class="row">
+						<!-- <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+							<h3 class="title title--center title--uppercase title--sectionTag mission__sectionTag">Our mission</h3>
+							<h2 class="title title--center title--hasSub title--noMarginTop title--section">Why we do it</h2>
+							<p class="paragraph paragraph--center title--sectionSub">Founded in December 2013 and proudly based in Porto, Pixelmatters’ mission is to make people's life easier, everywhere,
+								everyday. We cultivate a design-driven culture, focused on solving problems and creating solutions. We are a group
+								of unique individuals with the magic ability to improve existing things and to turn ideas into something that you
+								can see, touch and feel.</p>
+						</div> -->
+					</div>
+				</div>
+			</section>
+			<section class="row">
+				<div class="container" style="position: relative">
+					<img class="" src="images/savalo/inicio_savalo_texto.svg" alt="savalo">
+					<p style="position: absolute;top: auto;max-width: 83%;max-height: 240px;overflow: hidden;left: 0;right: 0;bottom: 40px;margin-left:  auto;margin-right: auto;background-color: white;column-count: 2;/* padding: 1rem 3rem; */">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quae quibusdam fuga tempora commodi sunt! Quaerat sunt tempore
+						animi dicta officiis deserunt modi corrupti et quia ducimus nemo laudantium nostrum aliquam rerum praesentium, illum rem
+						quod, totam, ullam saepe alias omnis quibusdam! Minus optio labore, architecto reprehenderit officiis voluptatum. Quidem
+						reiciendis necessitatibus dolorem, mollitia, nesciunt earum est tempore provident dicta culpa asperiores. Sint mollitia
+						neque similique nesciunt, molestias reprehenderit soluta, rem odit, nostrum accusantium quis unde laboriosam? Officia deleniti
+						omnis hic, reprehenderit ipsa error a, incidunt possimus vitae dignissimos placeat? Voluptate repellat debitis eum aut a
+						inventore, corporis consequatur sequi repudiandae, molestiae autem, iusto exercitationem provident incidunt! Velit voluptatum
+						recusandae deleniti modi mollitia quibusdam corporis ipsum, hic inventore nostrum harum? Aperiam, fuga, doloribus, recusandae
+						in repellendus tempore molestiae ad natus cum beatae voluptatem facilis commodi. Facere, aut tempore itaque officia odit
+						illum nisi expedita, maiores sequi blanditiis vel dolores obcaecati enim dolor dolorum totam eaque temporibus distinctio
+						exercitationem. Quasi laborum nostrum ratione in cum maxime vero, exercitationem rerum tempore nemo. Quasi, neque itaque
+						omnis impedit minima sit veritatis excepturi recusandae optio? Omnis, ratione nisi repudiandae sequi accusamus eaque in
+						corrupti explicabo rem ea deleniti aut quam magni nemo quia veniam iure voluptas ipsa voluptatem eligendi! Magnam nemo non
+						fugiat aliquam temporibus obcaecati voluptate voluptates, aperiam odit commodi soluta placeat ea quia vitae ratione repellat
+						dignissimos corporis neque sequi. Asperiores recusandae dolorem perferendis quae? Quae porro molestias ipsa voluptates aliquid
+						reiciendis labore exercitationem quidem nostrum cum iste, voluptatibus id maiores dolorum.
+					</p>
+				</div>
+			</section>
+			<section class="container dribbble" style="margin-top:200px;">
+				<div class="row dribbble__itemsContainer">
+
+					<ul class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 col-lg-10 col-lg-offset-1 dribbble__items list-unstyled">
+
+						<li class="dribbble__item">
+							<div class="link dribbble__itemLink ed-card" title="Bizy App" target="_blank">
+								<img class="dribbble__itemImg" src="images/savalo/savalo_modal1.png" alt="Bizy App" data-no-retina="">
+								<div class="dribbble__itemInfo">
+									<span class="dribbble__itemInfoText">View more</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="dribbble__item">
+							<div class="link dribbble__itemLink ed-card" title="Pixelmatters New Office"
+							target="_blank">
+								<img class="dribbble__itemImg" src="images/savalo/savalo_modal2.png" alt="Pixelmatters New Office" data-no-retina="">
+								<div class="dribbble__itemInfo">
+									<span class="dribbble__itemInfoText">View more</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="dribbble__item">
+							<div class="link dribbble__itemLink ed-card" title="Pixelmatters: Year in Review"
+							target="_blank">
+								<img class="dribbble__itemImg" src="images/savalo/savalo_modal3.png"
+								alt="Pixelmatters: Year in Review" data-no-retina="">
+								<div class="dribbble__itemInfo">
+									<span class="dribbble__itemInfoText">View more</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="dribbble__item">
+							<div class="link dribbble__itemLink ed-card" title="Formsite Pricing"
+							target="_blank">
+								<img class="dribbble__itemImg" src="images/savalo/savalo_modal4.png" alt="Formsite Pricing"
+								data-no-retina="">
+								<div class="dribbble__itemInfo">
+									<span class="dribbble__itemInfoText">View more</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="dribbble__item">
+							<div class="link dribbble__itemLink ed-card" title="Formsite Examples"
+							target="_blank">
+								<img class="dribbble__itemImg" src="images/savalo/savalo_modal5.png" alt="Formsite Examples"
+								data-no-retina="">
+								<div class="dribbble__itemInfo">
+									<span class="dribbble__itemInfoText">View more</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="dribbble__item">
+							<div class="link dribbble__itemLink ed-card" title="Formsite Features"
+							target="_blank">
+								<img class="dribbble__itemImg" src="images/savalo/savalo_modal6.png" alt="Formsite Features"
+								data-no-retina="">
+								<div class="dribbble__itemInfo">
+									<span class="dribbble__itemInfoText">View more</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="dribbble__item">
+							<div class="link dribbble__itemLink ed-card" title="Formsite Homepage"
+							target="_blank">
+								<img class="dribbble__itemImg" src="images/savalo/savalo_modal7.png" alt="Formsite Homepage"
+								data-no-retina="">
+								<div class="dribbble__itemInfo">
+									<span class="dribbble__itemInfoText">View more</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<div class="container">
+				<div class="row">
+					<img src="images/savalo/banner_savalo.png" alt="" class="img-responsive">
+				</div>
+			</div>
+			<!-- <div class="divider divider--containsImage">
+				<svg class="divider__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid"
+				width="26" height="92" viewbox="0 0 26 92">
+					<g>
+						<rect y="66" width="26" height="26" class="pixelDivider pixelDivider--1" />
+						<rect x="2" y="44" width="22" height="22" class="pixelDivider pixelDivider--2" />
+						<rect x="2" y="22" width="22" height="22" class="pixelDivider pixelDivider--3" />
+						<rect x="2" width="22" height="22" class="pixelDivider pixelDivider--4" /> </g>
+				</svg>
+			</div>
+			<section class="container principles">
+				<div class="row">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<h3 class="title title--center title--uppercase title--sectionTag">Our principles</h3>
+						<h2 class="title title--center title--noMarginTop title--section">What we believe in</h2>
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-xs-12 col-xl-10 col-xl-offset-1">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-4 principles__item">
+								<div class="principles__itemInner">
+									<h3 class="title title--uppercase title--item title--noMarginTop principles__title">
+										<span class="title__num">01.</span> Passion never fails</h3>
+									<p class="title title--itemDesc principles__itemDesc">Great things are only achievable when you love what you do.</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-4 principles__item">
+								<div class="principles__itemInner">
+									<h3 class="title title--uppercase title--item title--noMarginTop principles__title">
+										<span class="title__num">02.</span> People come first</h3>
+									<p class="title title--itemDesc principles__itemDesc">Happy clients and unhappy team? No, not here. Not with us.</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-4 principles__item">
+								<div class="principles__itemInner">
+									<h3 class="title title--uppercase title--item title--noMarginTop principles__title">
+										<span class="title__num">03.</span> Impossible is nothing</h3>
+									<p class="title title--itemDesc principles__itemDesc">There’s no such thing as limits. They are in your brain - nowhere else.</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-4 principles__item">
+								<div class="principles__itemInner">
+									<h3 class="title title--uppercase title--item title--noMarginTop principles__title">
+										<span class="title__num">04.</span> We're not executants</h3>
+									<p class="title title--itemDesc principles__itemDesc">We’re part of the same team. We work with you, not for you.</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-4 principles__item">
+								<div class="principles__itemInner">
+									<h3 class="title title--uppercase title--item title--noMarginTop principles__title">
+										<span class="title__num">05.</span> Ambition drives to success</h3>
+									<p class="title title--itemDesc principles__itemDesc">It’s not about how good you are. It’s about how good you want to be.</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-4 principles__item">
+								<div class="principles__itemInner">
+									<h3 class="title title--uppercase title--item title--noMarginTop principles__title">
+										<span class="title__num">06.</span> Great is not good enough</h3>
+									<p class="title title--itemDesc principles__itemDesc">Everyday, we strive to do things of which we are proud to say: "We've done this!"</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="divider divider--containsImage">
+				<svg class="divider__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid"
+				width="26" height="92" viewbox="0 0 26 92">
+					<g>
+						<rect y="66" width="26" height="26" class="pixelDivider pixelDivider--1" />
+						<rect x="2" y="44" width="22" height="22" class="pixelDivider pixelDivider--2" />
+						<rect x="2" y="22" width="22" height="22" class="pixelDivider pixelDivider--3" />
+						<rect x="2" width="22" height="22" class="pixelDivider pixelDivider--4" /> </g>
+				</svg>
+			</div>
+			<section class="container process">
+				<div class="row">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<h3 class="title title--center title--uppercase title--sectionTag">Our process</h3>
+						<h2 class="title title--center title--noMarginTop title--section">How we do it</h2>
+					</div>
+					<div id="timeline" class="col-xs-12 process__timeline">
+						<svg id="timeline-mobile" class="process__timelineImg visible-xs" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+						x="0px" y="0px" viewbox="0 0 306.6 1228.3" enable-background="new 0 0 306.6 1228.3" xml:space="preserve">
+							<circle class="process__timelineBullet process__timelineBullet--first" fill="#F2695E" cx="153.5" cy="3.8" r="3.8" />
+							<line class="process__timelineLine process__timelineLine--first" fill="none" stroke="#F2695E" stroke-width="2" stroke-miterlimit="10"
+							x1="153.5" y1="6.6" x2="153.5" y2="90.1" />
+							<circle class="process__timelineBullet process__timelineBullet--second" fill="#F2695E" cx="153.5" cy="96.9" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--second" fill="none" stroke="#F2695E" stroke-width="2" stroke-miterlimit="10"
+							x1="153.5" y1="103.7" x2="153.5" y2="238.6" />
+							<circle class="process__timelineBullet process__timelineBullet--third" fill="#F2695E" cx="153.5" cy="245.4" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--third" fill="none" stroke="#F2695E" stroke-width="2" stroke-miterlimit="10"
+							x1="153.5" y1="252.2" x2="153.5" y2="388.1" />
+							<circle class="process__timelineBullet process__timelineBullet--fourth" fill="#F2695E" cx="153.5" cy="394.8" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--fourthFirstHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="153.5" y1="401.6" x2="153.5" y2="588" />
+							<path fill="none" stroke="#BDBEC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,5"
+							d="M149.1,589.8c-4.9-0.5-10.9-3.7-13.2-11.8c-2.8-9.9-12.7-10.4-17.4-10.3" />
+							<path class="process__timelineIteratePath process__timelineIteratePath--mobile process__timelineIteratePath--left process__timelineIteratePath--first"
+							fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M149.1,589.8c-4.9-0.5-10.9-3.7-13.2-11.8c-2.8-9.9-12.7-10.4-17.4-10.3"
+							/>
+							<text class="process__timelineIterateText process__timelineIterateText--first" transform="matrix(1 0 0 1 41.1033 559.3333)">
+								<tspan x="0" y="0" fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="16">Iterate &amp;</tspan>
+								<tspan x="-41.4" y="24.2" fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="16">Communicate</tspan>
+							</text>
+							<line class="process__timelineLine process__timelineLine--fourthSecondHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="153.5" y1="588" x2="153.5" y2="606.6" />
+							<circle class="process__timelineBullet process__timelineBullet--fifth" fill="#F2695E" cx="153.5" cy="613.3" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--fifthFirstHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="153.5" y1="620.1" x2="153.5" y2="808" />
+							<path fill="none" stroke="#BDBEC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,5"
+							d="M157.1,809c4.7,0.1,11.6-0.4,14.4-10.3c2.3-8.1,11.3-11.3,16.2-11.8" />
+							<path class="process__timelineIteratePath process__timelineIteratePath--mobile process__timelineIteratePath--right process__timelineIteratePath--second"
+							fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M157.1,809c4.7,0.1,11.6-0.4,14.4-10.3c2.3-8.1,11.3-11.3,16.2-11.8"
+							/>
+							<text class="process__timelineIterateText process__timelineIterateText--second" transform="matrix(1 0 0 1 197.4679 777)">
+								<tspan x="0" y="0" fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="16">Iterate &amp;</tspan>
+								<tspan x="0" y="24.2" fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="16">Communicate</tspan>
+							</text>
+							<line class="process__timelineLine process__timelineLine--fifthSecondHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="153.5" y1="808" x2="153.5" y2="826.6" />
+							<circle class="process__timelineBullet process__timelineBullet--sixth" fill="#F2695E" cx="153.5" cy="832.4" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--sixthFirstHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="153.5" y1="839.4" x2="153.5" y2="1027.3" />
+							<path fill="none" stroke="#BDBEC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,5"
+							d="M149.1,1028.1c-4.9-0.5-10.9-3.7-13.2-11.8c-2.8-9.9-12.7-10.4-17.4-10.3" />
+							<path class="process__timelineIteratePath process__timelineIteratePath--mobile process__timelineIteratePath--left process__timelineIteratePath--third"
+							fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" d="M149.1,1028.1c-4.9-0.5-10.9-3.7-13.2-11.8c-2.8-9.9-12.7-10.4-17.4-10.3"
+							/>
+							<text class="process__timelineIterateText process__timelineIterateText--third" transform="matrix(1 0 0 1 41.1033 996)">
+								<tspan x="0" y="0" fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="16">Iterate &amp;</tspan>
+								<tspan x="-41.4" y="24.2" fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="16">Communicate</tspan>
+							</text>
+							<line class="process__timelineLine process__timelineLine--sixthSecondHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="153.5" y1="1027.2" x2="153.5" y2="1045" />
+							<circle class="process__timelineBullet process__timelineBullet--seventh" fill="#F2695E" cx="153.5" cy="1051.8" r="6.8"
+							/>
+							<lineargradient id="timelineMobileGradient" gradientunits="userSpaceOnUse" x1="-55.9348" y1="1000.4867" x2="-55.9348"
+							y2="1187.9546" gradienttransform="matrix(0.9086 0 0 0.9086 204.2901 148.9578)">
+								<stop offset="0" style="stop-color:#F2695E" />
+								<stop offset="0.185" style="stop-color:#F26C61;stop-opacity:0.815" />
+								<stop offset="0.3426" style="stop-color:#F3766C;stop-opacity:0.6574" />
+								<stop offset="0.4903" style="stop-color:#F5867D;stop-opacity:0.5097" />
+								<stop offset="0.6319" style="stop-color:#F79D96;stop-opacity:0.3681" />
+								<stop offset="0.7692" style="stop-color:#F9BBB6;stop-opacity:0.2308" />
+								<stop offset="0.9015" style="stop-color:#FCDFDD;stop-opacity:9.851557e-02" />
+								<stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0" /> </lineargradient>
+							<line class="process__timelineLine process__timelineLine--seventh" fill="none" stroke="url(#timelineMobileGradient)"
+							stroke-width="2" stroke-miterlimit="10" x1="153.5" y1="1058" x2="153.5" y2="1228.3" /> </svg>
+						<svg id="timeline-desktop" class="process__timelineImg hidden-xs" version="1.1" wxmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680px" height="880px" viewbox="0 0 612 792" enable-background="new 0 0 612 792"
+						xml:space="preserve">
+							<circle class="process__timelineBullet process__timelineBullet--first" fill="#F2695E" cx="306" cy="3.8" r="3.8" />
+							<line class="process__timelineLine process__timelineLine--first" fill="none" stroke="#F2695E" stroke-width="2" stroke-miterlimit="10"
+							x1="306" y1="6.6" x2="306" y2="82" />
+							<circle class="process__timelineBullet process__timelineBullet--second" fill="#F2695E" cx="306" cy="87.9" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--second" fill="none" stroke="#F2695E" stroke-width="2" stroke-miterlimit="10"
+							x1="306" y1="93.9" x2="306" y2="199.9" />
+							<circle class="process__timelineBullet process__timelineBullet--third" fill="#F2695E" cx="306" cy="206.7" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--third" fill="none" stroke="#F2695E" stroke-width="2" stroke-miterlimit="10"
+							x1="306" y1="212.6" x2="306" y2="318.6" />
+							<circle class="process__timelineBullet process__timelineBullet--fourth" fill="#F2695E" cx="306" cy="324.6" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--fourthFirstHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="306" y1="331.2" x2="306" y2="385.7" />
+							<path fill="none" stroke="#BDBEC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6.7944,5.8238"
+							d="M301.3,385.8c-12.8-1.4-28.5-9.7-34.6-30.8c-7.4-25.8-22.9-27.1-35.2-26.9" />
+							<path class="process__timelineIteratePath process__timelineIteratePath--desktop process__timelineIteratePath--left process__timelineIteratePath--first"
+							fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6.7944,5.8238"
+							d="M301.3,385.8c-12.8-1.4-28.5-9.7-34.6-30.8c-7.4-25.8-22.9-27.1-35.2-26.9" />
+							<text class="process__timelineIterateText process__timelineIterateText--first" transform="matrix(1 0 0 1 66.6665 332.6663)"
+							fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="14">Iterate &amp; Communicate</text>
+							<line class="process__timelineLine process__timelineLine--fourthSecondHalf" fill="none"
+							stroke="#F2695E" stroke-width="2" stroke-miterlimit="10" x1="306" y1="385.7" x2="306" y2="437.3" />
+							<circle class="process__timelineBullet process__timelineBullet--fifth" fill="#F2695E" cx="306" cy="443.7" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--fifthFirstHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="306" y1="449.6" x2="306" y2="504.5" />
+							<path fill="none" stroke="#BDBEC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6.7944,5.8238"
+							d="M378.1,445.9c-12.3-0.2-27.8,1.1-35.2,26.9c-6.1,21.1-21.8,29.4-34.6,30.8" />
+							<path class="process__timelineIteratePath process__timelineIteratePath--desktop process__timelineIteratePath--right process__timelineIteratePath--second"
+							fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M378.1,445.9c-12.3-0.2-27.8,1.1-35.2,26.9c-6.1,21.1-21.8,29.4-34.6,30.8"
+							/>
+							<text class="process__timelineIterateText process__timelineIterateText--second" transform="matrix(1 0 0 1 385.6665 450.4998)"
+							fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="14">Iterate &amp; Communicate</text>
+							<line class="process__timelineLine process__timelineLine--fifthSecondHalf" fill="none"
+							stroke="#F2695E" stroke-width="2" stroke-miterlimit="10" x1="306" y1="504.5" x2="306" y2="555.1" />
+							<circle class="process__timelineBullet process__timelineBullet--sixth" fill="#F2695E" cx="306" cy="561.8" r="6.8"
+							/>
+							<line class="process__timelineLine process__timelineLine--sixthFirstHalf" fill="none" stroke="#F2695E" stroke-width="2"
+							stroke-miterlimit="10" x1="306" y1="567.9" x2="306" y2="623.6" />
+							<path fill="none" stroke="#BDBEC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6.7944,5.8238"
+							d="M301.3,621.6c-12.8-1.4-28.5-9.7-34.6-30.8c-7.4-25.8-22.9-27.1-35.2-26.9" />
+							<path class="process__timelineIteratePath process__timelineIteratePath--desktop process__timelineIteratePath--left process__timelineIteratePath--third"
+							fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M301.3,621.6c-12.8-1.4-28.5-9.7-34.6-30.8c-7.4-25.8-22.9-27.1-35.2-26.9"
+							/>
+							<text class="process__timelineIterateText process__timelineIterateText--third" transform="matrix(1 0 0 1 66.3334 566.9002)"
+							fill="#BDBEC6" font-family="'WorkSans-Medium'" font-size="14">Iterate &amp; Communicate</text>
+							<line class="process__timelineLine process__timelineLine--sixthSecondHalf" fill="none"
+							stroke="#F2695E" stroke-width="2" stroke-miterlimit="10" x1="306" y1="623.5" x2="306" y2="673" />
+							<circle class="process__timelineBullet process__timelineBullet--seventh" fill="#F2695E" cx="306" cy="679.8" r="6.8"
+							/>
+							<lineargradient id="timelineGradient" gradientunits="userSpaceOnUse" x1="96.4968" y1="755.0344" x2="96.4968" y2="871.6974"
+							gradienttransform="matrix(0.9086 0 0 0.9086 218.323 -2.420330e-02)">
+								<stop offset="0" style="stop-color:#F2695E" />
+								<stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0" /> </lineargradient>
+							<line class="process__timelineLine process__timelineLine--seventh" fill="none" stroke="url(#timelineGradient)"
+							stroke-width="2" stroke-miterlimit="10" x1="306" y1="686" x2="306" y2="792" /> </svg>
+						<div class="process__step process__step--right process__step--first">
+							<div class="process__stepInner">
+								<h3 class="title title--uppercase title--item title--noMarginTop">Analysis</h3>
+								<p class="title title--itemDesc title--noMarginTop process__stepDesc">It always starts here.
+									<br class="hidden-xs"> Understanding the brief.</p>
+							</div>
+						</div>
+						<div class="process__step process__step--left process__step--second">
+							<div class="process__stepInner">
+								<h3 class="title title--uppercase title--item title--noMarginTop">Communication</h3>
+								<p class="title title--itemDesc title--noMarginTop process__stepDesc">We Slack a lot. And we make
+									<br class="hidden-xs"> questions. Lots of questions!</p>
+							</div>
+						</div>
+						<div class="process__step process__step--right process__step--third">
+							<div class="process__stepInner">
+								<h3 class="title title--uppercase title--item title--noMarginTop">Wireframing</h3>
+								<p class="title title--itemDesc title--noMarginTop process__stepDesc">No doubts about the brief.
+									<br class="hidden-xs"> Time to make wireframes.</p>
+							</div>
+						</div>
+						<div class="process__step process__step--left process__step--fourth">
+							<div class="process__stepInner">
+								<h3 class="title title--uppercase title--item title--noMarginTop">Make it beautiful</h3>
+								<p class="title title--itemDesc title--noMarginTop process__stepDesc">UX approved, let's define
+									<br class="hidden-xs"> the look and feel.</p>
+							</div>
+						</div>
+						<div class="process__step process__step--right process__step--fifth">
+							<div class="process__stepInner">
+								<h3 class="title title--uppercase title--item title--noMarginTop">Give it life</h3>
+								<p class="title title--itemDesc title--noMarginTop process__stepDesc">Time to write beautiful and
+									<br class="hidden-xs"> clean code.</p>
+							</div>
+						</div>
+						<div class="process__step process__step--left process__step--sixth">
+							<div class="process__stepInner">
+								<h3 class="title title--uppercase title--item title--noMarginTop">Launch it</h3>
+								<p class="title title--itemDesc title--noMarginTop process__stepDesc">Everything is ready. Let's show
+									<br class="hidden-xs"> this to the world!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="divider divider--containsImage">
+				<svg class="divider__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid"
+				width="26" height="92" viewbox="0 0 26 92">
+					<g>
+						<rect y="66" width="26" height="26" class="pixelDivider pixelDivider--1" />
+						<rect x="2" y="44" width="22" height="22" class="pixelDivider pixelDivider--2" />
+						<rect x="2" y="22" width="22" height="22" class="pixelDivider pixelDivider--3" />
+						<rect x="2" width="22" height="22" class="pixelDivider pixelDivider--4" /> </g>
+				</svg>
+			</div>
+			<section class="container team">
+				<div class="row">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<h3 class="title title--center title--uppercase title--sectionTag">Our amazing crew</h3>
+						<h2 class="title title--center title--noMarginTop title--section">Who we are</h2>
+					</div>
+					<div id="team__membersList" class="team__membersList col-sm-10 col-sm-offset-1 col-md-offset-1 col-xl-8 col-xl-offset-2"></div>
+				</div>
+			</section>
+			<div class="divider divider--containsImage">
+				<svg class="divider__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid"
+				width="26" height="92" viewbox="0 0 26 92">
+					<g>
+						<rect y="66" width="26" height="26" class="pixelDivider pixelDivider--1" />
+						<rect x="2" y="44" width="22" height="22" class="pixelDivider pixelDivider--2" />
+						<rect x="2" y="22" width="22" height="22" class="pixelDivider pixelDivider--3" />
+						<rect x="2" width="22" height="22" class="pixelDivider pixelDivider--4" /> </g>
+				</svg>
+			</div>
+			<section class="container location">
+				<div class="row">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<h3 class="title title--center title--uppercase title--sectionTag">While you sleep, we work</h3>
+						<h2 class="title title--center title--noMarginTop title--section">Where we are</h2>
+					</div>
+					<div id="map" class="col-xs-12 col-xl-10 col-xl-offset-1 location__map">
+						<img class="location__mapImage" src="images/location/map.svg" title="Pixelmatters clients are spread around the world"
+						data-no-retina="">
+						<div id="pixelLocation" class="location__point location__point--pixel" data-locations="Porto, Portugal" data-timezones="GMT +0">
+							<span class="location__pointDot location__pointDot--pixel"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="tooltipster-base tooltipster-default location__pointTooltip">
+							<div class="tooltipster-content">
+								<span class="location__pointInfo">
+									<span class="location__pointLocations">Porto, Portugal</span>
+									<span class="location__pointTimezone">GMT +0</span>
+								</span>
+							</div>
+							<div class="tooltipster-arrow-top tooltipster-arrow">
+								<span style="border-color:rgb(64, 64, 64);"></span>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 17.5%; left: 41.1%;" data-locations="London, England, United Kingdom"
+						data-timezones="GMT +0">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 17.1%; left: 42.7%;" data-locations="Amsterdam, Netherlands"
+						data-timezones="GMT +1">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 17.1%; left: 45.7%;" data-locations="Berlin, Berlin, Germany"
+						data-timezones="GMT +1">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 20.1%; left: 46%;" data-locations="Prague, Czech Republic"
+						data-timezones="GMT +1">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 19%; left: 19%;" data-locations="Toronto, Ontario, Canada"
+						data-timezones="GMT -5">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 23.5%; left: 8.5%;" data-locations="Cheyenne, Wyoming, U.S.A."
+						data-timezones="GMT -7">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 24%; left: 20%;" data-locations="New York, New York, U.S.A."
+						data-timezones="GMT -5">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 26%; left: 18%;" data-locations="Arlington, Virginia, U.S.A."
+						data-timezones="GMT -5">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 27%; left: 5%;" data-locations="San Francisco, California, U.S.A"
+						data-timezones="GMT -8">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 32.5%; left: 5.8%;" data-locations="Los Angeles, California, U.S.A"
+						data-timezones="GMT -8">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 52%; left: 40%;" data-locations="Accra, Ghana" data-timezones="GMT +0">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 29%; left: 79.5%;" data-locations="Seoul, South Korea" data-timezones="GMT +9">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 81%; left: 87.5%;" data-locations="Sydney, New South Wales, Australia"
+						data-timezones="GMT +11">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 85%; left: 84.5%;" data-locations="Melbourne, Victoria, Australia"
+						data-timezones="GMT +11">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 53.5%; left: 72.5%;" data-locations="Medan, North Sumatra, Indonesia"
+						data-timezones="GMT +7">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+						<div class="location__point location__point--client" style="top: 80.5%; left: 24.6%;" data-locations="Buenos Aires, Argentina"
+						data-timezones="GMT -3">
+							<span class="location__pointDot location__pointDot--client"></span>
+							<div class="location__tooltip">
+								<div class="location__tooltip__content">
+									<div class="location__tooltip__content__text"> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="divider divider--containsImage">
+				<svg class="divider__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid"
+				width="26" height="92" viewbox="0 0 26 92">
+					<g>
+						<rect y="66" width="26" height="26" class="pixelDivider pixelDivider--1" />
+						<rect x="2" y="44" width="22" height="22" class="pixelDivider pixelDivider--2" />
+						<rect x="2" y="22" width="22" height="22" class="pixelDivider pixelDivider--3" />
+						<rect x="2" width="22" height="22" class="pixelDivider pixelDivider--4" /> </g>
+				</svg>
+			</div>
+			<section class="container photoFeed">
+				<div class="row">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<h3 class="title title--center title--uppercase title--sectionTag">Our team spirit</h3>
+						<h2 class="title title--center title--noMarginTop title--section">A family called Pixelmatters</h2>
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-xs-12 photoFeed__itemsContainer">
+						<ul id="photoFeed__items" class="list-unstyled row photoFeed__items"></ul>
+					</div>
+				</div>
+			</section>
+			<section class="callToAction">
+				<canvas class="pixelRain pixelRain--isAbsolute"></canvas>
+				<div class="callToAction__divider">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid" viewbox="0 0 2560 124">
+						<path d="M2560.000,124.000 L2560.000,4.000 C2560.000,4.000 1289.625,124.000 1268.352,124.000 C1250.000,124.000 -0.000,4.000 -0.000,4.000 L-0.000,124.000 L-1.000,124.000 L-1.000,-0.000 L2561.000,-0.000 L2561.000,124.000 L2560.000,124.000 Z"
+						class="cls-1" /> </svg>
+				</div>
+				<div class="callToAction__info">
+					<div class="callToAction__info-align">
+						<h2 class="title title--center title--section callToAction__title">Be part of our amazing team!</h2>
+						<a class="button button--center button--lg button--cta" href="jobs.html" title="See all open positions at Pixelmatters">Open positions</a>
+					</div>
+				</div>
+			</section> -->
+	</main>
+	<footer class=" footer" role="contentinfo" style="margin-top:500px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-3 col-lg-3">
+					<nav class="menu menu--footer">
+						<ul class="list-unstyled menu__list" role="menu">
+							<li class="menu__listItem">
+								<h5 >
+									Colombia
+									<br>
+									Calle 127 B Bis No. 46-77
+									<br>
+									El Prado - Bogotá
+								</h5>
+								<!-- <a class="link link--footerMenu u-color_white" href="case-studies.html" title="Nuestro grupo">Nuestro grupo</a> -->
+							</li>
+							<li class="menu__listItem">
+								<!-- <a class="link link--footerMenu u-color_white" href="jobs.html" title="Media">Media</a> -->
+							</li>
+							<li class="menu__listItem">
+								<a class="link link--footerMenu u-color_white" href="mailto:mediosysoluciones@gmail.com" title="email">mediosysoluciones@gmail.com</a>
+								<!-- <a class="link link--footerMenu u-color_white" href="culture.html" title="Línea de negocios">Línea de negocios</a> -->
+							</li>
+							<li class="menu__listItem">
+								<!-- <a class="link link--footerMenu u-color_white" href="jobs.html" title="Media">Media</a> -->
+							</li>
+							<li class="menu__listItem">
+								<a class="link link--footerMenu u-color_white" href="" title="Telefono">(-37) 416 2514</a>
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+				<div class="col-xs-12 col-md-3 col-lg-3">
+				</div>
+				<div class="col-xs-12 col-md-5 col-lg-5 col-md-offset-1">
+					<form class="footer__form-wrapper">
+						<header class="form-wrapper--title">
+							Contactanos
+						</header>
+						<div class="col-xs-12">
+							<input type="text" class="form-wrapper--input" placeholder="Name">
+						</div>
+						<div class="col-xs-12">
+							<input type="text" class="form-wrapper--input" placeholder="E-mail">
+						</div>
+						<div class="col-xs-12">
+							<textarea name="message" id="" class="form-wrapper--textarea" placeholder="Message"></textarea>
+						</div>
+						<div class="col-xs-12">
+							<input type="submit" class="form-wrapper--submit center-block"   value="send">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+    </footer>
+	<script>
+		var tag = document.createElement("script");
+		tag.src = "http://www.youtube.com/player_api";
+		var firstScriptTag = document.getElementsByTagName("script")[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	</script>
+	<script>
+		! function (e, t, a, n, c, o) {
+			e.GoogleAnalyticsObject = n, e[n] || (e[n] = function () {
+				(e[n].q = e[n].q || []).push(arguments)
+			}), e[n].l = +new Date, c = t.createElement(a), o = t.getElementsByTagName(a)[0], c.src = "www.google-analytics.com/analytics.js", o.parentNode.insertBefore(c, o)
+		}(window, document, "script", "ga"), ga("create", "UA-53598084-2"), ga("send", "pageview");
+
+
+	</script>
+	<script src="scripts/vendor/modernizr-65f1d21d5f.js"></script>
+	<script src="scripts/vendor-d4cf8380a7.js"></script>
+	<script src="scripts/plugins-2ceecbdac0.js"></script>
+	<script src="scripts/main-f72a7920c6.js"></script>
+	<script src="scripts/modal.js"></script>
+
+	<script>
+		[...document.querySelectorAll('.ed-card')].forEach((a, i) => {
+				console.log(a)
+				a.addEventListener('click', (e) => {
+					console.log(e.target)
+					let srcIMg = a.firstElementChild.src;
+					printModal(`
+					<section class="ed-modal-content--section">
+						<img class="ed-modal-content--image" src="${srcIMg}" alt="" data-no-retina/>
+						<a >ir a juego</a>
+					</section>
+						`)
+				});
+			});
+	</script>
+</body>
+
+</html>
